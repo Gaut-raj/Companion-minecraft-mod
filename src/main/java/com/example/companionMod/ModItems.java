@@ -5,6 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.com.example.companionMod.Main;
 
 public class ModItems {
 
@@ -15,6 +16,8 @@ public class ModItems {
     }
 
     public static void registerModItems() {
+       
         // This method is called to ensure the items are registered
+    event.put("itemGroup.companionmod", "Companion Mod");
     }
 }
